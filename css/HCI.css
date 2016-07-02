@@ -1,0 +1,79 @@
+html, body{
+    font-size: 16px; line-height:1.2;
+    font-family:Tahoma;
+    background: #38313a;
+}
+section{
+     padding-top: 55px;
+}
+h1,h2,h3,h4,.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+h1{
+    font-size: 450%;
+    text-align: center;
+}
+h2{
+    font-size: 175%;
+}
+a,.p-white{
+  text-decoration: none !important;
+  color: white;
+}
+
+.green{
+  color: #539B55;
+}
+/* Headaer */
+#header{
+  padding: 50px;
+  height: 300px;    
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  background-image: url("header.jpg");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-cen{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+.btn-text, .btn-text:visited, .btn-text:focus,a:visited{
+    margin-top: 10px;
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid white;
+    color: white;
+    font-size: 110%;
+}
+.btn-text:hover,.btn-text:hover{
+    margin-top: 10px;
+    margin: 5px;
+    background-color: white;
+    color: #3e3e3e !important; 
+}
+/* Usado para hacer espacio*/
+.invisible{
+  padding: 1%;
+  color: transparent;
+}
+
+h4{
+ color:black;
+}
+.img-small{
+ height:200px;
+ width: 300px;
+}
+footer{
+  margin-top: 30px;
+  padding: 10px;
+  text-align:center;
+  color:white;
+  background: #222222;
+}
