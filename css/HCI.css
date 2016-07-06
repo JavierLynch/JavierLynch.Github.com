@@ -21,6 +21,10 @@ a,.p-white{
   text-decoration: none !important;
   color: white;
 }
+.iframe_align{
+  text-align:center;
+  width:100%;
+}
 
 .green{
   color: #539B55;
