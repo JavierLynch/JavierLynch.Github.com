@@ -18,12 +18,15 @@
     <!-- Custom CSS -->
     <link href="css/HCI.css" rel="stylesheet">
      <link href="animate.css" rel="stylesheet">
+    <script src="js/SmoothNavigation.js"  type="text/javascript"></script> 
     
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="js/wow.min.js"></script> 
+    <script src="js/Test.js"  type="text/javascript"></script> 
     
     <script src="/js/Pace.js"></script>
     <link href="css/Pace.css" rel="stylesheet" />
+    
 </head>
 <body>
 <!-- Navigation -->
@@ -48,22 +51,22 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" title="Ver información de las carreras" data-toggle="dropdown"><span class="fa fa-university" aria-hidden="true"></span> Carreras<b class="caret" ></b></a>
                         <ul class="dropdown-menu">
-                            <li>
-                                <a class ="page-scroll" href="#ISI">Licenciatura en Ingeniería de Sistemas de Información</a>
+                           <li>
+                                <a class ="page-scroll" href="carreras.html#ISI">Licenciatura en Ingeniería de Sistemas de Información</a>
                             </li>
                             <li>
-                                <a class ="page-scroll" href="#ISC">Licenciatura en Ingeniería de Sistemas y Computación</a>
+                                <a class ="page-scroll" href="carreras.html#ISC">Licenciatura en Ingeniería de Sistemas y Computación</a>
                             </li>
                             <li>
-                                <a class ="page-scroll" href="#DS">Licenciatura en Desarrollo de Software</a>
+                                <a class ="page-scroll" href="carreras.html#DS">Licenciatura en Desarrollo de Software</a>
                             </li>
                             <li>
-                                <a class ="page-scroll" href="#RI">Licenciatura en Redes Informáticas</a>
+                                <a class ="page-scroll" href="carreras.html#RI">Licenciatura en Redes Informáticas</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#" title="Realizar el test de carreras, no implementado"><span class="fa fa-wpforms" aria-hidden="true"></span> Test</a>
+                        <a href="Test.html" title="Realizar el test de carreras"><span class="fa fa-wpforms" aria-hidden="true"></span> Test</a>
                     </li>
                      <li>
                         <a href="Ayuda.html" title="Ayuda para realizar tareas mundanas"><span class="fa fa-question-circle" aria-hidden="true"></span> Ayuda</a>
@@ -87,24 +90,114 @@
       <h4>TEST: Descubre Que Carrera de Sistemas Se Ajusta a Tus Gustos.</h4>
      </div>
       <div class="panel-body">
-    <h4>Pregunta 1</h4>
+    <h4>1- ¿Qué prefieres en un trabajo?</h4>
     <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+        <input type="radio" name="q1" id="q1A" value="A" />
+        <label for="q1A">A) Diseño</label>
     </div>
     <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+        <input type="radio" name="q1" id="q1B" value="B" />
+        <label for="q1B">B) Programación</label>
     </div>
     <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+        <input type="radio" name="q1" id="q1C" value="C" />
+        <label for="q1C">C) Ambas</label>
+    </div>
+          <h4>2- ¿Cual de las siguientes te llama mas la atención?</h4>
+    <div>
+        <input type="radio" name="q2" id="q2A" value="A" />
+        <label for="q2A">A) Programación Web</label>
     </div>
     <div>
-        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-        <label for="question-1-answers-D">D) None of the above</label>
-    </div>  
-        </div>
+        <input type="radio" name="q2" id="q2B" value="B" />
+        <label for="q2B">B) Solucion de Problemas</label>
+    </div>
+    <div>
+        <input type="radio" name="q2" id="q2C" value="C" />
+        <label for="q2C">C) Redes Informaticas</label>
+    </div>
+    <div>
+        <input type="radio" name="q2" id="q2D" value="D" />
+        <label for="q2D">D) Gestion de Empresas</label>
+    </div>
+             <h4>3- ¿Que area te gusta más?</h4>
+    <div>
+        <input type="radio" name="q3" id="q3A" value="A" />
+        <label for="q3A">A) Hardware</label>
+    </div>
+    <div>
+        <input type="radio" name="q3" id="q3B" value="B" />
+        <label for="q3B">B) Software</label>
+          </div>
+             <h4>4- ¿Te intereza la seguridad web?</h4>
+    <div>
+        <input type="radio" name="q4" id="q4A" value="A" />
+        <label for="q4A">A) Si</label>
+    </div>
+    <div>
+        <input type="radio" name="q4" id="q4B" value="B" />
+        <label for="q4B">B) No</label>
+    </div>
+           <h4>5- ¿Te interesa trabajar sobre bases de datos?</h4>
+    <div>
+        <input type="radio" name="q5" id="q5A" value="A" />
+        <label for="q5A">A) Si</label>
+    </div>
+    <div>
+        <input type="radio" name="q5" id="q5B" value="B" />
+        <label for="q5B">B) No</label>
+    </div>
+          <h4>6- Elige una opcion</h4>
+    <div>
+        <input type="radio" name="q6" id="q6A" value="A" />
+        <label for="q6A">A) Tener conocimientos generales.</label>
+    </div>
+    <div>
+        <input type="radio" name="q6" id="q6B" value="B" />
+        <label for="q6B">B) Tener conocimientos especificos.</label>
+    </div>
+            <h4>7- Entre estas opciones, ¿Cuál prefieres?</h4>
+    <div>
+        <input type="radio" name="q7" id="q7A" value="A" />
+        <label for="q7A">A) Instalar una red informática (servidores, cableado, estaciones de trabajo, etc).</label>
+    </div>
+    <div>
+        <input type="radio" name="q7" id="q7B" value="B" />
+        <label for="q7B">B) Administrar una base de datos y sistemas de información.</label>
+    </div>
+    <div>
+        <input type="radio" name="q7" id="q7C" value="C" />
+        <label for="q7C">C) Análisis de distintos sistemas informáticos, plataformas y de seguridad.</label>
+    </div>
+    <div>
+        <input type="radio" name="q7" id="q7D" value="D" />
+        <label for="q7D">D) Programar videojuegos, Robotica.</label>
+    </div>
+    <div>
+        <input type="radio" name="q7" id="q7E" value="E" />
+        <label for="q7E">E) Ser programandor en distintos lenguajes.</label>
+    </div>
+          <h4>8- ¿En que empresa te gustaria trabajar?</h4>
+    <div>
+        <input type="radio" name="q8" id="q8A" value="A" />
+        <label for="q8A">A) DELL</label>
+    </div>
+    <div>
+        <input type="radio" name="q8" id="q8B" value="B" />
+        <label for="q8B">B) CABLE AND WIRELESS</label>
+    </div>
+    <div>
+        <input type="radio" name="q8" id="q8C" value="C" />
+        <label for="q8C">C) MICROSOFT</label>
+    </div>
+    <div>
+        <input type="radio" name="q8" id="q8D" value="D" />
+        <label for="q8D">D) GOOGLE</label>
+    </div>
+          <hr>
+          <button type="button" id="r">Enviar</button> 
+          http://www.pollsnack.com/survey-poll-quiz-software/edit-poll/?quiz=q71p2chv
+        </div> <!-- este Cierra -->
     </div>
     <footer>
       Jorge Ortiz, Miguel Batista, Javier Lynch @2016
@@ -112,9 +205,7 @@
     <!-- JavaScript -->
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
       <script src="js/scrolling-nav.js"></script>  
-
-
 </body>
 </html>
